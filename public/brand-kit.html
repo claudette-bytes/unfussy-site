@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>unfussy.ai — Brand kit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;700&family=IBM+Plex+Mono:wght@500&family=Plus+Jakarta+Sans:wght@500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root { --paper:#fff; --ink:#0c0c0c; --soft:#6e6e68; --rule:#e3e2dd; --sea:#0b7d77; --ghost:#f4f3ef; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; background: var(--paper); color: var(--ink); }
+    body { font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-weight: 500; }
+    .page { max-width: 880px; margin: 0 auto; padding: 48px 36px 72px; }
+    .meta { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--soft); display: flex; justify-content: space-between; border-bottom: 1px solid var(--ink); padding-bottom: 12px; margin-bottom: 36px; }
+    h1 { font-family: "Familjen Grotesk", sans-serif; font-weight: 700; letter-spacing: -.05em; line-height: .88; font-size: 64px; margin: 0 0 18px; }
+    h1 span { color: var(--sea); }
+    .lead { font-size: 20px; line-height: 1.4; max-width: 42ch; margin: 0 0 48px; }
+    h2 { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--soft); border-top: 1px solid var(--ink); padding-top: 12px; margin: 48px 0 18px; }
+    h3 { font-family: "Familjen Grotesk", sans-serif; font-weight: 700; letter-spacing: -.04em; font-size: 28px; margin: 0 0 8px; }
+    p { line-height: 1.45; color: var(--ink); }
+    .muted { color: var(--soft); }
+    .stage { background: var(--ghost); border: 1px solid var(--rule); min-height: 180px; display: flex; align-items: center; justify-content: center; margin-bottom: 18px; }
+    .mark { width: 180px; height: auto; color: var(--ink); }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; }
+    .card { border: 1px solid var(--rule); padding: 18px; min-height: 120px; display: flex; flex-direction: column; justify-content: space-between; }
+    .card.ink { background: #0c0c0c; color: #f4f4f0; }
+    .card.sea { background: #0b7d77; color: #fff; }
+    .card.sea .mark rect:last-child { fill: #fff; }
+    .lock { display: flex; align-items: center; gap: 10px; font-family: "Familjen Grotesk", sans-serif; font-weight: 700; font-size: 22px; letter-spacing: -.05em; }
+    .lock .ai { color: var(--sea); }
+    .card.ink .ai, .card.sea .ai { color: inherit; opacity: .9; }
+    .chip { height: 72px; border: 1px solid var(--rule); margin-bottom: 10px; }
+    .hex { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--soft); }
+    .voice { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 20px; padding: 12px 0; border-bottom: 1px solid var(--rule); }
+    .voice b { display: block; font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: .12em; text-transform: uppercase; font-weight: 500; margin-bottom: 4px; }
+    .voice .yes b { color: var(--sea); }
+    .sample-d { font-family: "Familjen Grotesk", sans-serif; font-weight: 700; letter-spacing: -.05em; font-size: 32px; line-height: .9; }
+    .sample-b { font-size: 16px; }
+    .sample-m { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--soft); }
+    .dont { opacity: .55; }
+    .stretch { transform: scaleX(1.7); }
+    .rot { transform: rotate(-16deg); }
+    .wrong rect:last-child { fill: #c45c26; }
+    @media print {
+      .page { padding: 0; max-width: none; }
+      h1 { font-size: 48px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <p class="meta"><span>unfussy.ai · Brand kit · not the website</span><span><a href="/unfussy-brand-kit.pdf" style="color:#0b7d77">Download PDF</a> · <a href="/" style="color:#6e6e68">Back to the website</a></span></p>
+    <h1>Two chicks.<br />One <span>table.</span></h1>
+    <p class="lead">The unfussy kit. A mark, a palette, three typefaces, and a voice that does not say leverage. Use it. Don’t fussy it.</p>
+
+    <h2>00 · The mark · The pair</h2>
+    <h3>Two at the table. That’s us.</h3>
+    <p class="muted">Two chicks, sitting down, getting on with it. The table is sea. Everything else is ink. If it needs a drop shadow, you’ve already lost.</p>
+    <div class="stage">
+      <svg class="mark" viewBox="0 0 48 32" aria-label="unfussy.ai mark">
+        <circle cx="15" cy="8.5" r="4.4" fill="currentColor"/>
+        <circle cx="33" cy="8.5" r="4.4" fill="currentColor"/>
+        <rect x="13.1" y="13.2" width="3.8" height="9.4" rx="1.8" fill="currentColor"/>
+        <rect x="31.1" y="13.2" width="3.8" height="9.4" rx="1.8" fill="currentColor"/>
+        <rect x="5" y="23.6" width="38" height="3.6" rx="1.8" fill="#0B7D77"/>
+      </svg>
+    </div>
+    <div class="grid">
+      <div class="card">
+        <span class="hex">Horizontal</span>
+        <div class="lock">
+          <svg width="48" height="32" viewBox="0 0 48 32"><circle cx="15" cy="8.5" r="4.4" fill="#0C0C0C"/><circle cx="33" cy="8.5" r="4.4" fill="#0C0C0C"/><rect x="13.1" y="13.2" width="3.8" height="9.4" rx="1.8" fill="#0C0C0C"/><rect x="31.1" y="13.2" width="3.8" height="9.4" rx="1.8" fill="#0C0C0C"/><rect x="5" y="23.6" width="38" height="3.6" rx="1.8" fill="#0B7D77"/></svg>
+          unfussy<span class="ai">.ai</span>
+        </div>
+      </div>
+      <div class="card">
+        <span class="hex">Wordmark</span>
+        <div class="lock">unfussy<span class="ai">.ai</span></div>
+      </div>
+      <div class="card ink">
+        <span class="hex">On ink</span>
+        <div class="lock">
+          <svg width="48" height="32" viewBox="0 0 48 32"><circle cx="15" cy="8.5" r="4.4" fill="#F4F4F0"/><circle cx="33" cy="8.5" r="4.4" fill="#F4F4F0"/><rect x="13.1" y="13.2" width="3.8" height="9.4" rx="1.8" fill="#F4F4F0"/><rect x="31.1" y="13.2" width="3.8" height="9.4" rx="1.8" fill="#F4F4F0"/><rect x="5" y="23.6" width="38" height="3.6" rx="1.8" fill="#0B7D77"/></svg>
+          unfussy<span class="ai">.ai</span>
+        </div>
+      </div>
+      <div class="card sea">
+        <span class="hex">On sea</span>
+        <div class="lock">
+          <svg class="mark" width="48" height="32" viewBox="0 0 48 32" style="color:#fff"><circle cx="15" cy="8.5" r="4.4" fill="currentColor"/><circle cx="33" cy="8.5" r="4.4" fill="currentColor"/><rect x="13.1" y="13.2" width="3.8" height="9.4" rx="1.8" fill="currentColor"/><rect x="31.1" y="13.2" width="3.8" height="9.4" rx="1.8" fill="currentColor"/><rect x="5" y="23.6" width="38" height="3.6" rx="1.8" fill="#fff"/></svg>
+          unfussy<span class="ai">.ai</span>
+        </div>
+      </div>
+    </div>
+
+    <h2>01 · How to sit it</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="stage" style="min-height:100px;margin:0 0 10px">
+          <svg width="72" height="48" viewBox="0 0 48 32"><circle cx="15" cy="8.5" r="4.4" fill="#0C0C0C"/><circle cx="33" cy="8.5" r="4.4" fill="#0C0C0C"/><rect x="13.1" y="13.2" width="3.8" height="9.4" rx="1.8" fill="#0C0C0C"/><rect x="31.1" y="13.2" width="3.8" height="9.4" rx="1.8" fill="#0C0C0C"/><rect x="5" y="23.6" width="38" height="3.6" rx="1.8" fill="#0B7D77"/></svg>
+        </div>
+        <p><b style="color:var(--sea)">Do.</b> Clear space: one table-width on every side.</p>
+      </div>
+      <div class="card dont">
+        <div class="stage" style="min-height:100px;margin:0 0 10px">
+          <svg class="stretch" width="72" height="48" viewBox="0 0 48 32"><circle cx="15" cy="8.5" r="4.4" fill="#0C0C0C"/><circle cx="33" cy="8.5" r="4.4" fill="#0C0C0C"/><rect x="13.1" y="13.2" width="3.8" height="9.4" rx="1.8" fill="#0C0C0C"/><rect x="31.1" y="13.2" width="3.8" height="9.4" rx="1.8" fill="#0C0C0C"/><rect x="5" y="23.6" width="38" height="3.6" rx="1.8" fill="#0B7D77"/></svg>
+        </div>
+        <p>Don’t stretch. Scale, don’t distort.</p>
+      </div>
+      <div class="card dont">
+        <div class="stage" style="min-height:100px;margin:0 0 10px">
+          <svg class="rot" width="72" height="48" viewBox="0 0 48 32"><circle cx="15" cy="8.5" r="4.4" fill="#0C0C0C"/><circle cx="33" cy="8.5" r="4.4" fill="#0C0C0C"/><rect x="13.1" y="13.2" width="3.8" height="9.4" rx="1.8" fill="#0C0C0C"/><rect x="31.1" y="13.2" width="3.8" height="9.4" rx="1.8" fill="#0C0C0C"/><rect x="5" y="23.6" width="38" height="3.6" rx="1.8" fill="#0B7D77"/></svg>
+        </div>
+        <p>Don’t rotate. The table stays level.</p>
+      </div>
+      <div class="card dont">
+        <div class="stage" style="min-height:100px;margin:0 0 10px">
+          <svg class="wrong" width="72" height="48" viewBox="0 0 48 32"><circle cx="15" cy="8.5" r="4.4" fill="#0C0C0C"/><circle cx="33" cy="8.5" r="4.4" fill="#0C0C0C"/><rect x="13.1" y="13.2" width="3.8" height="9.4" rx="1.8" fill="#0C0C0C"/><rect x="31.1" y="13.2" width="3.8" height="9.4" rx="1.8" fill="#0C0C0C"/><rect x="5" y="23.6" width="38" height="3.6" rx="1.8" fill="#c45c26"/></svg>
+        </div>
+        <p>Don’t recolour the table. The table is sea. Always.</p>
+      </div>
+    </div>
+
+    <h2>02 · Colour · The set</h2>
+    <h3>Paper, ink, sea. That’s the fuss budget.</h3>
+    <div class="grid-3" style="margin-top:18px">
+      <div><div class="chip" style="background:#fff"></div><h3 style="font-size:18px">Paper</h3><p class="hex">#FFFFFF</p><p class="muted">The page. Stay here.</p></div>
+      <div><div class="chip" style="background:#0C0C0C"></div><h3 style="font-size:18px">Ink</h3><p class="hex">#0C0C0C</p><p class="muted">Type, the mark, the rule when it means it.</p></div>
+      <div><div class="chip" style="background:#0B7D77"></div><h3 style="font-size:18px">Sea</h3><p class="hex">#0B7D77</p><p class="muted">The only accent. .ai, the table, the yes.</p></div>
+      <div><div class="chip" style="background:#1FA8A0"></div><h3 style="font-size:18px">Sea fill</h3><p class="hex">#1FA8A0</p><p class="muted">Hover. The moment it lands.</p></div>
+      <div><div class="chip" style="background:#6E6E68"></div><h3 style="font-size:18px">Soft</h3><p class="hex">#6E6E68</p><p class="muted">Labels. Captions. The quiet line.</p></div>
+      <div><div class="chip" style="background:#E3E2DD"></div><h3 style="font-size:18px">Rule</h3><p class="hex">#E3E2DD</p><p class="muted">Hairlines. Never a fat box.</p></div>
+    </div>
+
+    <h2>03 · Type · Three voices</h2>
+    <div class="grid-3">
+      <div>
+        <p class="hex" style="color:var(--sea)">Display</p>
+        <h3 style="font-size:20px">Familjen Grotesk</h3>
+        <p class="sample-d">Two chicks. Zero fuss.</p>
+        <p class="muted">Headlines. The wordmark.</p>
+      </div>
+      <div>
+        <p class="hex" style="color:var(--sea)">Body</p>
+        <h3 style="font-size:20px">Plus Jakarta Sans</h3>
+        <p class="sample-b">We teach you AI until it stops being a thing.</p>
+        <p class="muted">Blurbs, cards, the thing you actually read.</p>
+      </div>
+      <div>
+        <p class="hex" style="color:var(--sea)">Meta</p>
+        <h3 style="font-size:20px">IBM Plex Mono</h3>
+        <p class="sample-m">What we do · Any timezone · 00</p>
+        <p class="muted">Labels, tabs, the ticket tape.</p>
+      </div>
+    </div>
+
+    <h2>04 · Voice · How we talk</h2>
+    <h3>Sound like a person. A fun one.</h3>
+    <div class="voice"><div class="yes"><b>We say</b> Unfuss it.</div><div><b>We don’t</b> Leverage AI.</div></div>
+    <div class="voice"><div class="yes"><b>We say</b> Kitchen table.</div><div><b>We don’t</b> Centre of excellence.</div></div>
+    <div class="voice"><div class="yes"><b>We say</b> The chicks.</div><div><b>We don’t</b> The team / the founders.</div></div>
+    <div class="voice"><div class="yes"><b>We say</b> Gone by Friday.</div><div><b>We don’t</b> Deliverables this sprint.</div></div>
+    <div class="voice"><div class="yes"><b>We say</b> Your recipes, not ours.</div><div><b>We don’t</b> Best-practice playbooks.</div></div>
+    <div class="voice"><div class="yes"><b>We say</b> Come on. Unfuss it.</div><div><b>We don’t</b> Unlock your potential.</div></div>
+
+    <h2>05 · Pictures</h2>
+    <p>Documentary, 4:3, a bit of grain. Then a teal wash at 22%. Real rooms. Not a stock handshake.</p>
+
+    <h2>06 · That’s the kit</h2>
+    <h3>Anyone can use this. Just don’t fussy it.</h3>
+    <p class="muted">Questions about the mark, a lockup for a slide, a colour that isn’t in the set — ask the chicks before you invent a new one. hello@unfussy.ai</p>
+  </div>
+</body>
+</html>
